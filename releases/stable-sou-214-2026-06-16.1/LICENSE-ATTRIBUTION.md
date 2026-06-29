@@ -22,31 +22,31 @@ Public-bundle license basis for SoundClaw-owned payloads:
 
 ## Release
 
-- release_id: `stable-sou-277-2026-06-28.1`
-- generated_at: `2026-06-29T00:35:38Z`
-- runtime_ref: `e012cba01671dd95debece44a76ba52a02234c6c`
-- pi_kit_ref: `d32177f122ad113787e745b347561a380b90771d`
-- skills_ref: `8dc02361d01a424e9e7a1d3630531f3a118c3a4e`
-- runtime_config_ref: `shared-phase3-motu-hw22`
-- library_release_ref: `library-72400d1`
-- default_skills: `soundclaw-onboarding soundclaw-version request-scene manual-policy browse-assets show-outputs`
+- release_id: `stable-sou-214-2026-06-16.1`
+- generated_at: `2026-06-16T02:47:25Z`
+- runtime_ref: `a8d31be0a3cc5541c0eea0c5e8b0cc5202812c8d`
+- pi_kit_ref: `1dd79a13b1185bf47ca69fd4f62730d195ebda9d`
+- skills_ref: `4c3b417b1b021a46f76e4b7b262459b1814e142a`
+- runtime_config_ref: `runtime.toml.example@a8d31be0a3cc5541c0eea0c5e8b0cc5202812c8d`
+- library_release_ref: `soundclaw-asset-library@93d255df04ee1f690aa3630af19fddf2c49bfe15`
+- default_skills: `browse-assets manage-output manual-policy play-asset runtime-health set-volume show-asset show-outputs soundclaw-onboarding soundclaw-version stop-playback validate-config`
 
 ## SoundClaw-Owned Contents
 
 - `runtime/`: staged runtime artifact from `soundclaw-runtime` ref
-  `e012cba01671dd95debece44a76ba52a02234c6c`; workspace license declaration:
-  `not declared in Cargo.toml`
+  `a8d31be0a3cc5541c0eea0c5e8b0cc5202812c8d`; workspace license declaration:
+  `MIT OR Apache-2.0`
 - `repos/soundclaw-pi-kit/`: curated install payload from
-  `soundclaw-pi-kit` ref `d32177f122ad113787e745b347561a380b90771d`; repo-level metadata at source ref: none;
+  `soundclaw-pi-kit` ref `1dd79a13b1185bf47ca69fd4f62730d195ebda9d`; repo-level metadata at source ref: none;
   public-bundle license basis: Apache-2.0 under the architecture public-bundle
   policy when repo-level metadata is absent.
 - `repos/soundclaw-skills/`: selected skill payloads from
-  `soundclaw-skills` ref `8dc02361d01a424e9e7a1d3630531f3a118c3a4e`; selected skills are named in
+  `soundclaw-skills` ref `4c3b417b1b021a46f76e4b7b262459b1814e142a`; selected skills are named in
   `SOUNDCLAW_DEFAULT_SKILLS` in `manifest.env`; repo-level metadata at source ref: none;
   public-bundle license basis: Apache-2.0 under the architecture public-bundle
   policy when repo-level metadata is absent.
 - `config/runtime.toml`: runtime config selected as
-  `shared-phase3-motu-hw22`; public-bundle license basis: Apache-2.0 under
+  `runtime.toml.example@a8d31be0a3cc5541c0eea0c5e8b0cc5202812c8d`; public-bundle license basis: Apache-2.0 under
   the architecture public-bundle policy unless the source ref declares a
   different compatible license or notice.
 
@@ -63,52 +63,32 @@ unresolved SoundClaw-owned source-license reconstruction step.
 
 Runtime dependency inventory from `soundclaw-runtime/Cargo.lock`:
 
-- android_system_properties 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)
 - anyhow 1.0.102 (registry+https://github.com/rust-lang/crates.io-index)
 - arrayvec 0.7.6 (registry+https://github.com/rust-lang/crates.io-index)
-- autocfg 1.5.1 (registry+https://github.com/rust-lang/crates.io-index)
 - bitflags 1.3.2 (registry+https://github.com/rust-lang/crates.io-index)
 - bitflags 2.11.0 (registry+https://github.com/rust-lang/crates.io-index)
-- block-buffer 0.10.4 (registry+https://github.com/rust-lang/crates.io-index)
-- bumpalo 3.20.3 (registry+https://github.com/rust-lang/crates.io-index)
 - bytemuck 1.25.0 (registry+https://github.com/rust-lang/crates.io-index)
-- cc 1.2.65 (registry+https://github.com/rust-lang/crates.io-index)
 - cfg-if 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)
-- chrono 0.4.45 (registry+https://github.com/rust-lang/crates.io-index)
-- core-foundation-sys 0.8.7 (registry+https://github.com/rust-lang/crates.io-index)
-- cpufeatures 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)
-- crypto-common 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)
-- digest 0.10.7 (registry+https://github.com/rust-lang/crates.io-index)
 - encoding_rs 0.8.35 (registry+https://github.com/rust-lang/crates.io-index)
 - equivalent 1.0.2 (registry+https://github.com/rust-lang/crates.io-index)
 - errno 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)
 - extended 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)
 - fastrand 2.4.1 (registry+https://github.com/rust-lang/crates.io-index)
-- find-msvc-tools 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)
 - foldhash 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)
-- futures-core 0.3.32 (registry+https://github.com/rust-lang/crates.io-index)
-- futures-task 0.3.32 (registry+https://github.com/rust-lang/crates.io-index)
-- futures-util 0.3.32 (registry+https://github.com/rust-lang/crates.io-index)
-- generic-array 0.14.7 (registry+https://github.com/rust-lang/crates.io-index)
 - getrandom 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)
 - hashbrown 0.15.5 (registry+https://github.com/rust-lang/crates.io-index)
 - hashbrown 0.16.1 (registry+https://github.com/rust-lang/crates.io-index)
 - heck 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)
-- iana-time-zone 0.1.65 (registry+https://github.com/rust-lang/crates.io-index)
-- iana-time-zone-haiku 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)
 - id-arena 2.3.0 (registry+https://github.com/rust-lang/crates.io-index)
 - indexmap 2.13.1 (registry+https://github.com/rust-lang/crates.io-index)
 - itoa 1.0.18 (registry+https://github.com/rust-lang/crates.io-index)
-- js-sys 0.3.103 (registry+https://github.com/rust-lang/crates.io-index)
 - lazy_static 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)
 - leb128fmt 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)
 - libc 0.2.184 (registry+https://github.com/rust-lang/crates.io-index)
 - linux-raw-sys 0.12.1 (registry+https://github.com/rust-lang/crates.io-index)
 - log 0.4.29 (registry+https://github.com/rust-lang/crates.io-index)
 - memchr 2.8.0 (registry+https://github.com/rust-lang/crates.io-index)
-- num-traits 0.2.19 (registry+https://github.com/rust-lang/crates.io-index)
 - once_cell 1.21.4 (registry+https://github.com/rust-lang/crates.io-index)
-- pin-project-lite 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)
 - prettyplease 0.2.37 (registry+https://github.com/rust-lang/crates.io-index)
 - proc-macro2 1.0.106 (registry+https://github.com/rust-lang/crates.io-index)
 - quote 1.0.45 (registry+https://github.com/rust-lang/crates.io-index)
@@ -116,18 +96,12 @@ Runtime dependency inventory from `soundclaw-runtime/Cargo.lock`:
 - runtime-core 0.1.0 (workspace/path)
 - runtime-engine-gst 0.1.0 (workspace/path)
 - rustix 1.1.4 (registry+https://github.com/rust-lang/crates.io-index)
-- rustversion 1.0.22 (registry+https://github.com/rust-lang/crates.io-index)
-- ryu-js 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)
 - semver 1.0.28 (registry+https://github.com/rust-lang/crates.io-index)
 - serde 1.0.228 (registry+https://github.com/rust-lang/crates.io-index)
 - serde_core 1.0.228 (registry+https://github.com/rust-lang/crates.io-index)
 - serde_derive 1.0.228 (registry+https://github.com/rust-lang/crates.io-index)
-- serde_jcs 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)
 - serde_json 1.0.149 (registry+https://github.com/rust-lang/crates.io-index)
 - serde_spanned 0.6.9 (registry+https://github.com/rust-lang/crates.io-index)
-- sha2 0.10.9 (registry+https://github.com/rust-lang/crates.io-index)
-- shlex 2.0.1 (registry+https://github.com/rust-lang/crates.io-index)
-- slab 0.4.12 (registry+https://github.com/rust-lang/crates.io-index)
 - soundclaw-runtime-daemon 0.1.0 (workspace/path)
 - soundclawctl 0.1.0 (workspace/path)
 - symphonia 0.5.5 (registry+https://github.com/rust-lang/crates.io-index)
@@ -140,32 +114,18 @@ Runtime dependency inventory from `soundclaw-runtime/Cargo.lock`:
 - symphonia-utils-xiph 0.5.5 (registry+https://github.com/rust-lang/crates.io-index)
 - syn 2.0.117 (registry+https://github.com/rust-lang/crates.io-index)
 - tempfile 3.27.0 (registry+https://github.com/rust-lang/crates.io-index)
-- tinyvec 1.11.0 (registry+https://github.com/rust-lang/crates.io-index)
-- tinyvec_macros 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)
 - toml 0.8.23 (registry+https://github.com/rust-lang/crates.io-index)
 - toml_datetime 0.6.11 (registry+https://github.com/rust-lang/crates.io-index)
 - toml_edit 0.22.27 (registry+https://github.com/rust-lang/crates.io-index)
 - toml_write 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)
-- typenum 1.20.1 (registry+https://github.com/rust-lang/crates.io-index)
 - unicode-ident 1.0.24 (registry+https://github.com/rust-lang/crates.io-index)
-- unicode-normalization 0.1.25 (registry+https://github.com/rust-lang/crates.io-index)
 - unicode-xid 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)
-- version_check 0.9.5 (registry+https://github.com/rust-lang/crates.io-index)
 - wasip2 1.0.2+wasi-0.2.9 (registry+https://github.com/rust-lang/crates.io-index)
 - wasip3 0.4.0+wasi-0.3.0-rc-2026-01-06 (registry+https://github.com/rust-lang/crates.io-index)
-- wasm-bindgen 0.2.126 (registry+https://github.com/rust-lang/crates.io-index)
-- wasm-bindgen-macro 0.2.126 (registry+https://github.com/rust-lang/crates.io-index)
-- wasm-bindgen-macro-support 0.2.126 (registry+https://github.com/rust-lang/crates.io-index)
-- wasm-bindgen-shared 0.2.126 (registry+https://github.com/rust-lang/crates.io-index)
 - wasm-encoder 0.244.0 (registry+https://github.com/rust-lang/crates.io-index)
 - wasm-metadata 0.244.0 (registry+https://github.com/rust-lang/crates.io-index)
 - wasmparser 0.244.0 (registry+https://github.com/rust-lang/crates.io-index)
-- windows-core 0.62.2 (registry+https://github.com/rust-lang/crates.io-index)
-- windows-implement 0.60.2 (registry+https://github.com/rust-lang/crates.io-index)
-- windows-interface 0.59.3 (registry+https://github.com/rust-lang/crates.io-index)
 - windows-link 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)
-- windows-result 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)
-- windows-strings 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)
 - windows-sys 0.61.2 (registry+https://github.com/rust-lang/crates.io-index)
 - winnow 0.7.15 (registry+https://github.com/rust-lang/crates.io-index)
 - wit-bindgen 0.51.0 (registry+https://github.com/rust-lang/crates.io-index)

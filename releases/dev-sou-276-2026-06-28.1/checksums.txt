@@ -1,7 +1,7 @@
-a7b3a6d0a075f1944dae10451863cc51bc0ba71cc0ad40c46ed3a2984f4574d9  ./LICENSE-ATTRIBUTION.md
+ea2da6f662079cee77bbe2d85410c21fb8798e6578fcd8df2efcfd5bd48e20f0  ./LICENSE-ATTRIBUTION.md
 dbc7b28ecdb1d04ded74b1aa1f71babf8b14ce239ff1b75562fb5bd193e74fff  ./config/runtime.toml
-8de9d08028d37a5a19dc22f68cf02b748b6102551050881cb80ccdb27cc6d0d2  ./install.sh
-ba930d8d2628f48206259d97ad6fd24c0596c1500da345f4db17991205aad84e  ./manifest.env
+7fd393be0048e71fc0b629c5499cb4b2794b1e635a9254a031ab35f4d21e4efd  ./install.sh
+94f2aa746f4fad31cbed279bd53c85cff1f0691158ec5c586c30a28d07e336da  ./manifest.env
 2ebf16d6d093b2786c5d7bb0e03880c29bc3b9dc495e5b27407aa82831586b15  ./repos/soundclaw-pi-kit/config/profiles/exclusive.env
 7d5cc38a744449c625872a555ce05c499dfb164d818bc90ab98672fe1c84b240  ./repos/soundclaw-pi-kit/config/profiles/shared.env
 e27d925fb4592d0e6f40a90426e28b51480820f7be8292077bd43e9af8cf7437  ./repos/soundclaw-pi-kit/lib/pi-kit.sh
@@ -11,13 +11,8 @@ c060db592778cc3d5888db7f01cde54813999f5cfa5353ff6e189e433ccc9297  ./repos/soundc
 803b70e6c280a5717f603db79d85df2018b8ca76089e820fadd02070de9cf140  ./repos/soundclaw-pi-kit/scripts/deploy-runtime.sh
 5bf5cd41ed7e8e347870b8b5628394ccf04dd28f871d0462392c30e20c2328c2  ./repos/soundclaw-pi-kit/scripts/deployment-status.sh
 d554b0c2d1568a6811a3bc36749d5024bd4b50e1b3c8093731ead8c4dfda36af  ./repos/soundclaw-pi-kit/scripts/fingerprint-paths.sh
-3cb089d52fa587a6757f5df9269b53b95c78c40c0edcbc26dfd870272fd7ae9e  ./repos/soundclaw-pi-kit/scripts/ingest-library.sh
-d4f8f2227c4848fc3d6a5ed587a4e0d2608d93e0b45b638638b4d96a00c7457b  ./repos/soundclaw-pi-kit/scripts/install-release.sh
 cf611e04bed26665bc34000dee652ff3fcd4644838905d00a18dd36ed587731e  ./repos/soundclaw-pi-kit/scripts/install.sh
 c8f3117fcc449e5b08aa4195a0f174eb41631f78eff7dc32ea396b2f35502cae  ./repos/soundclaw-pi-kit/scripts/operator-console-proof.sh
-e165dc4046510d02c1f9079540b13c3604473187cf4c2bf444e26a871fe416dd  ./repos/soundclaw-pi-kit/scripts/phase2-proof-capture.sh
-a1b13880f232e6de969a24adced9c9e65fcaca97ffe46a9c08a2ad31d2f94fac  ./repos/soundclaw-pi-kit/scripts/phase3-proof-capture.sh
-3db9e42a30ca1d7b9b05095528d5ef4ef7255a522de44cfa32507e84015c0949  ./repos/soundclaw-pi-kit/scripts/preflight-release-bundle.sh
 e5327b5c14b60c5bae8bfd702a23782708eb87add89225401c561c329b2a20d6  ./repos/soundclaw-pi-kit/scripts/runtime-discovery-check.sh
 8573ce0f52c11e0e3a58577b797967745dd2498c83cbdf8a2b5cfd3547b16527  ./repos/soundclaw-pi-kit/scripts/setup.sh
 734136da6362dbac4dc4eca8f14a4b3dff6e518313f0fc5e5f1295029523490a  ./repos/soundclaw-pi-kit/scripts/smoke-test.sh

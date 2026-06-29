@@ -22,8 +22,8 @@ Public-bundle license basis for SoundClaw-owned payloads:
 
 ## Release
 
-- release_id: `stable-sou-277-2026-06-28.1`
-- generated_at: `2026-06-29T00:35:38Z`
+- release_id: `dev-sou-276-2026-06-28.1`
+- generated_at: `2026-06-29T00:09:54Z`
 - runtime_ref: `e012cba01671dd95debece44a76ba52a02234c6c`
 - pi_kit_ref: `d32177f122ad113787e745b347561a380b90771d`
 - skills_ref: `8dc02361d01a424e9e7a1d3630531f3a118c3a4e`
