@@ -22,11 +22,11 @@ Public-bundle license basis for SoundClaw-owned payloads:
 
 ## Release
 
-- release_id: `stable-sou-277-2026-06-28.1`
-- generated_at: `2026-06-29T00:35:38Z`
-- runtime_ref: `e012cba01671dd95debece44a76ba52a02234c6c`
+- release_id: `dev-sou-272-2026-06-28.1`
+- generated_at: `2026-06-28T16:09:07Z`
+- runtime_ref: `740efbd2cd8d64976f7c2439b83658d395d25492`
 - pi_kit_ref: `d32177f122ad113787e745b347561a380b90771d`
-- skills_ref: `8dc02361d01a424e9e7a1d3630531f3a118c3a4e`
+- skills_ref: `936c3942ede4bc45a95b7d7423afc5b55e07cec0`
 - runtime_config_ref: `shared-phase3-motu-hw22`
 - library_release_ref: `library-72400d1`
 - default_skills: `soundclaw-onboarding soundclaw-version request-scene manual-policy browse-assets show-outputs`
@@ -34,14 +34,14 @@ Public-bundle license basis for SoundClaw-owned payloads:
 ## SoundClaw-Owned Contents
 
 - `runtime/`: staged runtime artifact from `soundclaw-runtime` ref
-  `e012cba01671dd95debece44a76ba52a02234c6c`; workspace license declaration:
+  `740efbd2cd8d64976f7c2439b83658d395d25492`; workspace license declaration:
   `not declared in Cargo.toml`
 - `repos/soundclaw-pi-kit/`: curated install payload from
   `soundclaw-pi-kit` ref `d32177f122ad113787e745b347561a380b90771d`; repo-level metadata at source ref: none;
   public-bundle license basis: Apache-2.0 under the architecture public-bundle
   policy when repo-level metadata is absent.
 - `repos/soundclaw-skills/`: selected skill payloads from
-  `soundclaw-skills` ref `8dc02361d01a424e9e7a1d3630531f3a118c3a4e`; selected skills are named in
+  `soundclaw-skills` ref `936c3942ede4bc45a95b7d7423afc5b55e07cec0`; selected skills are named in
   `SOUNDCLAW_DEFAULT_SKILLS` in `manifest.env`; repo-level metadata at source ref: none;
   public-bundle license basis: Apache-2.0 under the architecture public-bundle
   policy when repo-level metadata is absent.

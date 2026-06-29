@@ -1,7 +1,7 @@
-a7b3a6d0a075f1944dae10451863cc51bc0ba71cc0ad40c46ed3a2984f4574d9  ./LICENSE-ATTRIBUTION.md
+989d60faf4701c66f8ff1b2750a1ff81a66338acdd026716d47bfacd1fabb61e  ./LICENSE-ATTRIBUTION.md
 dbc7b28ecdb1d04ded74b1aa1f71babf8b14ce239ff1b75562fb5bd193e74fff  ./config/runtime.toml
 8de9d08028d37a5a19dc22f68cf02b748b6102551050881cb80ccdb27cc6d0d2  ./install.sh
-ba930d8d2628f48206259d97ad6fd24c0596c1500da345f4db17991205aad84e  ./manifest.env
+f958b41d6760ee3c12d4955b4ce5b616238895114fad4a1060953f17a90e25b3  ./manifest.env
 2ebf16d6d093b2786c5d7bb0e03880c29bc3b9dc495e5b27407aa82831586b15  ./repos/soundclaw-pi-kit/config/profiles/exclusive.env
 7d5cc38a744449c625872a555ce05c499dfb164d818bc90ab98672fe1c84b240  ./repos/soundclaw-pi-kit/config/profiles/shared.env
 e27d925fb4592d0e6f40a90426e28b51480820f7be8292077bd43e9af8cf7437  ./repos/soundclaw-pi-kit/lib/pi-kit.sh
