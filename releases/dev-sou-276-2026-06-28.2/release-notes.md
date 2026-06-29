@@ -1,0 +1,14 @@
+# SoundClaw Public Release dev-sou-276-2026-06-28.2
+
+promotion_gate: dev-release-surface
+release_class: dev-release-surface
+not_latest=true
+not_stable=true
+not_rtw=true
+public_readiness_evidence: Linear:SOU-276/91784572
+audit_result: pass
+bundle: soundclaw-pi-release-dev-sou-276-2026-06-28.2.tar.gz
+manifest: manifest.env
+checksums: checksums.txt
+license_attribution: LICENSE-ATTRIBUTION.md
+source_tuple: source-tuple.env
