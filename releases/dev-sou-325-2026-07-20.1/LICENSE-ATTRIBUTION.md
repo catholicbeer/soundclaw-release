@@ -22,8 +22,8 @@ Public-bundle license basis for SoundClaw-owned payloads:
 
 ## Release
 
-- release_id: `stable-sou-326-2026-07-20.1`
-- generated_at: `2026-07-20T18:29:32Z`
+- release_id: `dev-sou-325-2026-07-20.1`
+- generated_at: `2026-07-20T18:12:54Z`
 - runtime_ref: `45642f9d67e8ae26fcfcebcc893b682c8da392e2`
 - pi_kit_ref: `92677f12f2f08972b8f634ff4cffafd40dc9758e`
 - runtime_config_ref: `shared-phase3-motu-hw22`
