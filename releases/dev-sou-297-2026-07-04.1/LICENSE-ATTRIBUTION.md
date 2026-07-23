@@ -9,8 +9,8 @@ Public-bundle license basis for SoundClaw-owned payloads:
 
 - Runtime payloads use the exact `soundclaw-runtime` source ref license
   declaration.
-- Curated pi-kit backend payloads, runtime config examples, and generated
-  release metadata use the architecture-owned public
+- Curated pi-kit install payloads, selected skills payloads, runtime config
+  examples, and generated release metadata use the architecture-owned public
   release bundle policy in
   `soundclaw/docs/release-and-compatibility.md#public-bundle-license-basis`
   unless their exact source refs declare a different compatible license or
@@ -22,20 +22,27 @@ Public-bundle license basis for SoundClaw-owned payloads:
 
 ## Release
 
-- release_id: `stable-sou-326-2026-07-20.1`
-- generated_at: `2026-07-20T18:29:32Z`
-- runtime_ref: `45642f9d67e8ae26fcfcebcc893b682c8da392e2`
-- pi_kit_ref: `92677f12f2f08972b8f634ff4cffafd40dc9758e`
+- release_id: `dev-sou-297-2026-07-04.1`
+- generated_at: `2026-07-02T23:12:59Z`
+- runtime_ref: `5e8dffd0fc2d1e3d4f59109fbc1d6aaa02fadd67`
+- pi_kit_ref: `17d335018165eb71f869720e6dabe1cfbaa76040`
+- skills_ref: `d329c25d31796128608fd1d57af7c63d16d2a480`
 - runtime_config_ref: `shared-phase3-motu-hw22`
-- library_release_ref: `library-25bc5e5`
+- library_release_ref: `library-9cb072d`
+- default_skills: `browse-assets ingest-library manage-feedback manage-output manual-policy play-asset request-layer request-scene runtime-health set-volume show-asset show-outputs soundclaw-onboarding soundclaw-toolkit soundclaw-version stop-playback validate-config`
 
 ## SoundClaw-Owned Contents
 
 - `runtime/`: staged runtime artifact from `soundclaw-runtime` ref
-  `45642f9d67e8ae26fcfcebcc893b682c8da392e2`; workspace license declaration:
+  `5e8dffd0fc2d1e3d4f59109fbc1d6aaa02fadd67`; workspace license declaration:
   `MIT OR Apache-2.0`
 - `repos/soundclaw-pi-kit/`: curated install payload from
-  `soundclaw-pi-kit` ref `92677f12f2f08972b8f634ff4cffafd40dc9758e`; repo-level metadata at source ref: none;
+  `soundclaw-pi-kit` ref `17d335018165eb71f869720e6dabe1cfbaa76040`; repo-level metadata at source ref: none;
+  public-bundle license basis: Apache-2.0 under the architecture public-bundle
+  policy when repo-level metadata is absent.
+- `repos/soundclaw-skills/`: selected skill payloads from
+  `soundclaw-skills` ref `d329c25d31796128608fd1d57af7c63d16d2a480`; selected skills are named in
+  `SOUNDCLAW_DEFAULT_SKILLS` in `manifest.env`; repo-level metadata at source ref: none;
   public-bundle license basis: Apache-2.0 under the architecture public-bundle
   policy when repo-level metadata is absent.
 - `config/runtime.toml`: runtime config selected as
@@ -49,8 +56,8 @@ The bundle may include third-party code through the staged runtime binary and
 through scripts that install or invoke system packages on the target host.
 
 Public-readiness review must still confirm that the licenses and attribution
-requirements for the runtime dependency inventory below and any retained asset
-metadata are compatible with
+requirements for the runtime dependency inventory below, any packaged
+skill-local dependencies, and any retained asset metadata are compatible with
 the public release. This is a dependency and asset metadata review, not an
 unresolved SoundClaw-owned source-license reconstruction step.
 

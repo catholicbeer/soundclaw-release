@@ -22,24 +22,24 @@ Public-bundle license basis for SoundClaw-owned payloads:
 
 ## Release
 
-- release_id: `stable-sou-326-2026-07-20.1`
-- generated_at: `2026-07-20T18:29:32Z`
-- runtime_ref: `45642f9d67e8ae26fcfcebcc893b682c8da392e2`
-- pi_kit_ref: `92677f12f2f08972b8f634ff4cffafd40dc9758e`
-- runtime_config_ref: `shared-phase3-motu-hw22`
-- library_release_ref: `library-25bc5e5`
+- release_id: `dev-sou-334-2026-07-22.1`
+- generated_at: `2026-07-23T04:58:59Z`
+- runtime_ref: `0a144e4f5c6b3dbd498a44bfa5d614ee1edbb7db`
+- pi_kit_ref: `60a6265169255110230fe3e4fa644faf443a89c8`
+- runtime_config_ref: `soundclaw-runtime@0a144e4f5c6b3dbd498a44bfa5d614ee1edbb7db:config/runtime.toml.example`
+- library_release_ref: `eb798a0e99839e6fc1514d60537c6798283d7bda`
 
 ## SoundClaw-Owned Contents
 
 - `runtime/`: staged runtime artifact from `soundclaw-runtime` ref
-  `45642f9d67e8ae26fcfcebcc893b682c8da392e2`; workspace license declaration:
+  `0a144e4f5c6b3dbd498a44bfa5d614ee1edbb7db`; workspace license declaration:
   `MIT OR Apache-2.0`
 - `repos/soundclaw-pi-kit/`: curated install payload from
-  `soundclaw-pi-kit` ref `92677f12f2f08972b8f634ff4cffafd40dc9758e`; repo-level metadata at source ref: none;
+  `soundclaw-pi-kit` ref `60a6265169255110230fe3e4fa644faf443a89c8`; repo-level metadata at source ref: none;
   public-bundle license basis: Apache-2.0 under the architecture public-bundle
   policy when repo-level metadata is absent.
 - `config/runtime.toml`: runtime config selected as
-  `shared-phase3-motu-hw22`; public-bundle license basis: Apache-2.0 under
+  `soundclaw-runtime@0a144e4f5c6b3dbd498a44bfa5d614ee1edbb7db:config/runtime.toml.example`; public-bundle license basis: Apache-2.0 under
   the architecture public-bundle policy unless the source ref declares a
   different compatible license or notice.
 
